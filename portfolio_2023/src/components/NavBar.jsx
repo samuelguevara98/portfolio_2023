@@ -24,7 +24,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed ">
       
       <div>
-        <h1 className="text-5xl font-signature px-6">Samuel Guevara</h1>
+        <h1 className="text-5xl font-signature ml-2">Samuel Guevara</h1>
       </div>
 
 
@@ -33,7 +33,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li 
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-125 duration-200">
+            className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-125 duration-200">
               {link}
           </li>
 
@@ -50,7 +50,7 @@ const NavBar = () => {
 
         {nav && (
           
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-600 ">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-amber-600 ">
         {links.map(({ id, link }) => (
           
           <li 
