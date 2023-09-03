@@ -8,8 +8,8 @@ const Home = () => {
     <div
       name='home'
       className='h-screen w-full bg-amber-600'>
-      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-        <div className='flex flex-col justify-center h-full'>
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row align-text-top'>
+        <div className='flex flex-col justify-center'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
             Full Stack Developer
           </h2>
@@ -19,7 +19,7 @@ const Home = () => {
             distinguished COVID Cohort. Woo-hoo! I currently have 8 years of
             experience with HTML and CSS and have 3 years of experience with
             Git, UI, UX, API, Graphic Desings, React.js and a ton of other
-            coding languages. Check out my portfolio to see the rest!
+            coding languages. Download my resume to see the rest!
           </p>
 
           <div>
@@ -28,7 +28,7 @@ const Home = () => {
               smooth
               duration={500}
               className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-black cursor-pointer'>
-              Portfolio
+              Download Portfolio
               <span className='group-hover:rotate-90 duration-300'>
                 <AiOutlineArrowRight
                   size={17}
