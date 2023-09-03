@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaExternalLinkAlt, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
 import { RiPagesFill } from "react-icons/ri";
 
